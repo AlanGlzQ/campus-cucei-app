@@ -11,13 +11,13 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
 // Pantallas de la app
-import PRINCIPAL from "./Principal";
-import DIRECTORIO from "./Directorio";
-import VIDEO from "./Video";
-import MAPA from "./MapaLite";
-import LOGIN from "./Loggin";
-import ALUMNO from "./PerfilAlumno";
-import KARDEX from "./KardexAlumno";
+import PRINCIPAL from "./src/screens/Principal";
+import DIRECTORIO from "./src/screens/Directorio";
+import VIDEO from "./src/screens/Video";
+import MAPA from "./src/screens/MapaLite";
+import LOGIN from "./src/screens/Login";
+import ALUMNO from "./src/screens/PerfilAlumno";
+import KARDEX from "./src/screens/KardexAlumno";
 
 const Stack = createNativeStackNavigator();
 
