@@ -88,7 +88,7 @@ export const USE_MOCK_AUTH = true; // false en producción
 
 ## Demo en video
 
-[![Demo CampusCucei](campus_thumbnail.png)](https://drive.google.com/file/d/1BUcxZBWQS5o8fPSMrI4n87ukulmyjMwg/view?usp=sharing)
+[[Demo CampusCucei]](https://drive.google.com/file/d/1BUcxZBWQS5o8fPSMrI4n87ukulmyjMwg/view?usp=sharing)
 
 ---
 
