@@ -32,10 +32,12 @@ export default function PerfilAlumno({ route, navigation, user, onLogout }) {
     alumnoParam && Object.keys(alumnoParam).length > 0
       ? alumnoParam
       : user?.alumno || {};
-  const academico =
+  const academico = useMemo(() =>
     academicoParam && Object.keys(academicoParam).length > 0
       ? academicoParam
-      : user?.academico || {};
+      : user?.academico || {},
+  [academicoParam, user?.academico]
+);
 
   // ===== Helpers de formato y calculo =======================================================
   // Normaliza el ciclo dejando solo año + letra (2024B, 2025A, etc)

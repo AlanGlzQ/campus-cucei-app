@@ -14,7 +14,7 @@ import {
 export default function Kardex({ route, navigation }) {
   // Recibimos desde navegación la lista de materias y datos del alumno.
   // Si no vienen, usamos valores por defecto.
-  const { materias = [], alumno = {} } = route?.params || {};
+  const { materias = [] } = route?.params || {};
 
   // Normaliza el ciclo a un formato tipo YYYY[A/B]
   const normCycle = (c) => (c ?? "").toString().replace(/[^0-9AB]/g, "");
